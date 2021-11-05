@@ -1,18 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
 nav {
-    background: #deb887;
-    width: 73%;
+    background: honeydew;
+    width: 100%;
     padding: 1%;
+    
 }
 
 nav a {
+    font-family: 'Francois One', sans-serif;
+    color: rgba(76, 0, 130);
     text-decoration: none;
+    padding: 0 20px;
 }
 .inlineBlock {
     display: inline-block;
     vertical-align: top;
 }
-
 .logo {
+    text-align: center;
+}
+
+div .logo {
     width: 23%;
     padding: 1%;
     text-align: center;
@@ -23,7 +32,7 @@ ul {
     margin-left: auto;
 }
 
-section {
+.heroimg {
     height: 600px;
     padding: 25px;
 }
@@ -31,9 +40,40 @@ section {
 .content {
     width: 500px;
     margin: 0 auto;
+    text-align: center;
+}
+
+.content button {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Francois One', sans-serif;
+    color: honeydew;
+    background-color: rgba(76, 0, 130);
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+
+p {
+    text-align: center;
+    color:rgba(76, 0, 130);
+    font-size: 24px;
+    font-family: 'Francois One', sans-serif;
 }
 
 footer {
     background-color: #373738;
-    padding: auto;
+    padding: 25px;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+footer li {
+    padding: 0 20px;
+    color: honeydew;
+    font-family: 'Francois One', sans-serif;
+    
 }
