@@ -43,6 +43,10 @@ ul {
     text-align: center;
 }
 
+.content img {
+    width: 400px;
+}
+
 .content button {
     text-align: center;
     font-size: 18px;
