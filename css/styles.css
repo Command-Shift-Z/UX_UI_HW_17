@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 
 nav {
-    background: honeydew;
+    background: #f72585;
     width: 100%;
     padding: 1%;
     
@@ -9,9 +9,10 @@ nav {
 
 nav a {
     font-family: 'Francois One', sans-serif;
-    color: rgba(76, 0, 130);
+    color: #FFF;
     text-decoration: none;
     padding: 0 20px;
+    
 }
 .inlineBlock {
     display: inline-block;
@@ -34,17 +35,19 @@ ul {
 
 .heroimg {
     height: 600px;
-    padding: 25px;
+    padding: 50px;
 }
 
 .content {
     width: 500px;
     margin: 0 auto;
+    padding-top: 100px;
     text-align: center;
 }
 
 .content img {
     width: 400px;
+
 }
 
 .content button {
