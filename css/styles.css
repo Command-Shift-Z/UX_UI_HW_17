@@ -18,6 +18,9 @@ nav a {
     display: inline-block;
     vertical-align: top;
 }
+.inlineBlock img {
+    width: 200px;
+}
 .logo {
     text-align: center;
 }
@@ -27,6 +30,7 @@ div .logo {
     padding: 1%;
     text-align: center;
 }
+
 
 ul {
     width: 45%;
